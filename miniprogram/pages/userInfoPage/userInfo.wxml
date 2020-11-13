@@ -1,0 +1,14 @@
+<!--pages/page5/page5.wxml-->
+
+<view class="container">
+  <view class="background">
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">姓名: {{userInfo.name}}</text>
+      <text class="userinfo-nickname">学院: {{userInfo.college}}</text>
+      <text class="userinfo-nickname">主修: {{userInfo.major}}</text>
+      <text class="userinfo-nickname">爱好: {{userInfo.hobby}}</text>
+    </view>
+  </view>
+  <canvas canvas-id="canvasColumn" id="canvasColumn" class="charts"></canvas>
+</view>

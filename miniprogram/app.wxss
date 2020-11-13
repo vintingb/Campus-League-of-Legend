@@ -1,0 +1,28 @@
+/**app.wxss**/
+@import 'weui.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  /* background-image: url('https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/%E5%89%AF%E8%83%8C%E6%99%AF.png'); */
+}
+
+.page {
+  /* background-image: url('https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/%E5%89%AF%E8%83%8C%E6%99%AF.png'); */
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /*text-align: center;*/
+  /*background: #f5f5f5;*/
+  /* background-image: url('https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/%E5%89%AF%E8%83%8C%E6%99%AF.png'); */
+}

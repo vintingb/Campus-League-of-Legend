@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="background">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <!-- <image class="weui-media-box__hd" src="https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/s1.jpg" /> -->
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+        circular='{{circular}}' current="0">
+        <!-- 用于展示轮播图效果 -->
+        <block wx:for="{{imgUrls}}" wx:key="navItems">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="1280" height="720" />
+          </swiper-item>
+        </block>
+      </swiper>
+      <img src="cloud://demo1demo1-7g32j1k4710c7cac.6465-demo1demo1-7g32j1k4710c7cac-1304010070/background/s1.jpg" height="200" width="200" />
+    </view>
+
+
+    <!-- <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称
+      </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+  </view> -->
+
+    <view class="weui-article__p1">
+      <image class="weui-article__img1"
+        src="cloud://demo1demo1-7g32j1k4710c7cac.6465-demo1demo1-7g32j1k4710c7cac-1304010070/background/榜上有名.png"
+        mode="aspectFit" bindtap="navigateToAwards" />
+    </view>
+
+    <view class="weui-article__p2">
+      <image class="weui-article__img2"
+        src="cloud://demo1demo1-7g32j1k4710c7cac.6465-demo1demo1-7g32j1k4710c7cac-1304010070/background/英雄会.png"
+        mode="aspectFit" bindtap="navigateCompetitionLIstPage" />
+    </view>
+    <!-- <button class="weui-btn" type="primary">
+      <mp-icon icon="at" color="white" size="{{25}}"></mp-icon>
+      <text>按钮文字</text>
+    </button> -->
+  </view>
+</view>

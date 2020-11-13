@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="background">
+  <view class="container">
+    <view>
+      <view class="weui-panel weui-panel_access">
+        <view class="weui-panel__hd">全部获奖列表</view>
+        <view wx:for="{{articleList}}" wx:key="key" wx:for-item="item" class="weui-panel__bd">
+          <view data-title="{{item.title}}" data-desc="{{item.desc}}" data-imageurl="{{item.imageURL}}"
+            data-id="{{item.id}}" bindtap="gotoViewImage" class="weui-media-box weui-media-box_appmsg"
+            hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+              <image class="weui-media-box__thumb" src="{{item.imageURL}}" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+              <view class="weui-media-box__title">{{item.title}}</view>
+              <view class="weui-media-box__desc">{{item.desc}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

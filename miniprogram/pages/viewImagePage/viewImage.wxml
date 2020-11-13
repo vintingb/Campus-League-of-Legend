@@ -1,0 +1,20 @@
+<!--pages/viewImage/viewImage.wxml-->
+<view class="background">
+  <view class="container">
+    <view>
+      <view class="weui-article">
+        <view class="weui-article__section">
+          <view class="weui-article__section">
+            <view class="weui-article__h3">{{title}}</view>
+            <view class="weui-article__p">
+              <image class="weui-article__img" src="{{imageURL}}" mode="aspectFit" />
+            </view>
+            <view class="weui-article__p">
+              {{desc}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

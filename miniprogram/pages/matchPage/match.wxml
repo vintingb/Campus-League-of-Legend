@@ -1,0 +1,10 @@
+<view class="background">
+  <view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      选择竞赛名称：{{array[index]}}
+    </view>
+  </picker>
+</view>
+<button class="matchText" bindtap="matchTeammates">匹配</button>
+</view>

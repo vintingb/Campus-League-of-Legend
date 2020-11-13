@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/splashPage/splash",
+    "pages/indexPage/index",
+    "pages/matchPage/match",
+    "pages/userInfoPage/userInfo",
+    "pages/myPage/my",
+    "pages/instructionPage/instruction",
+    "pages/viewImagePage/viewImage",
+    "pages/conceringPage/concering",
+    "pages/competitionLIstPage/competition",
+    "pages/characterListPage/character",
+    "pages/matchHistoryPage/matchHistory",
+    "pages/awardsPage/awards"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8C7853",
+    "navigationBarTitleText": "校园英雄联盟",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#8C7853",
+    "list": [
+      {
+        "pagePath": "pages/indexPage/index",
+        "iconPath": "images/首页2.png",
+        "selectedIconPath": "images/首页.png",
+        "text": "英雄门"
+      },
+      {
+        "pagePath": "pages/competitionLIstPage/competition",
+        "iconPath": "images/武侠2.png",
+        "selectedIconPath": "images/武侠.png",
+        "text": "英雄会"
+      },
+      {
+        "pagePath": "pages/matchPage/match",
+        "iconPath": "images/匹配2.png",
+        "selectedIconPath": "images/匹配.png",
+        "text": "英雄贴"
+      },
+      {
+        "pagePath": "pages/characterListPage/character",
+        "iconPath": "images/英雄榜.png",
+        "selectedIconPath": "images/英雄榜2.png",
+        "text": "英雄榜"
+      },
+      {
+        "pagePath": "pages/myPage/my",
+        "iconPath": "images/我的2.png",
+        "selectedIconPath": "images/我的.png",
+        "text": "英雄家"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+/* pages/viewImage/viewImage.wxss */
+.background {
+  position: fixed;
+  background-size: cover; 
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  /*background: #f5f5f5;*/
+  background-image: url('https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/%E5%89%AF%E8%83%8C%E6%99%AF.png');
+}

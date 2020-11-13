@@ -1,0 +1,29 @@
+<!--pages/page5/page5.wxml-->
+<view class="background">
+  <view class="container">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称
+      </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <button type="default" class="menu" bindtap="actionSheetTap">菜单</button>
+
+
+
+    <action-sheet class="sheet" hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+      <block>
+        <action-sheet-item bindtap="navigateToMatchHistoryPage">组队历史</action-sheet-item>
+        <button class='contact-btn' open-type='contact' bindtap="cancel">联系客服</button>
+        <action-sheet-item bindtap="navigateInstruction">使用说明</action-sheet-item>
+        <action-sheet-item bindtap="aboutTeam">关于我们</action-sheet-item>
+      </block>
+      <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+    </action-sheet>
+  </view>
+</view>
