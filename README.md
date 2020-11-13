@@ -26,7 +26,7 @@
 ![](example/images/qrcode.PNG)
 ## 部署方法
 
-具体查看部署方法[deployment.md](deployment)
+具体查看部署方法[DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## 关于作者
 
