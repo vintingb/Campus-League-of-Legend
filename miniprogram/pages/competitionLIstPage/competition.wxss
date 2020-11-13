@@ -1,8 +1,8 @@
-.background {
+.container {
   position: fixed;
   height: 100%;
-  width:100%;
-  background-size: cover; 
+  width: 100%;
+  background-size: cover;
   left: 0;
   top: 0;
   right: 0;
@@ -10,24 +10,28 @@
   text-align: center;
   /*background: #f5f5f5;*/
   background-image: url('https://www.et.ynu.edu.cn/appdd/uploads/20181130006/8/%E8%8B%B1%E9%9B%84%E4%BC%9A%E8%83%8C%E6%99%AF.png');
-}/**index.wxss**/
-.weui-panel {
-  background: transparent;
 }
+
+/**index.wxss**/
+.weui-panel {
+  background: rgba(0, 0, 0, 0);
+}
+
 
 .weui-media-box__desc {
   color: rgb(0, 34, 0);
   font-weight: bold;
 }
-.weui-panel__hd{
+
+.weui-panel__hd {
   margin-left: 50px;
 }
-.weui-media-box__hd{
-  margin-left: 50px;
+
+.weui-media-box__hd {
   margin-top: 10px;
   text-align: center;
 }
 
-.swiper-container{
+.swiper-container {
   min-height: 250px;
 }
