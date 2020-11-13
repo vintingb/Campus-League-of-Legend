@@ -60,7 +60,7 @@ matchHistory
 competitionList
 > 储存英雄会列表数据
 
-**具体数据去[json](example\json)查看**
+**具体数据去[json](example/json)查看**
 
 ## 云储存上传文件
 - background文件夹下主要储存背景
