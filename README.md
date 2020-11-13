@@ -30,7 +30,8 @@
 
 ## 关于作者
 
-* **Vintingb** - *后端兼部分前端* - [Vintingb](https://github.com/vintingb)
+* **Vintingb** - *主要负责后端功能的实现和部分前端界面的修改* - [Vintingb](https://github.com/vintingb)
+* **zhangjinyong007** - *主要负责前端的界面设计以及部分后端内容* - [zhangjinyong007](https://github.com/zhangjinyong007)
 
 ## 授权协议
 
