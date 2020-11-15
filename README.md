@@ -17,6 +17,7 @@
 ![](example/images/5.PNG)
 ![](example/images/6.PNG)
 
+[参考视频](example/video/video.mp4)
 
 ### 项目二维码
 
